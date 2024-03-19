@@ -1,9 +1,10 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(121, 119, 116);
 }
 
 .pokemon-list{
     text-align: center;
+    height: 80rem;
 }
 #getoutput{
     font-size: 16px;
@@ -19,8 +20,6 @@ body{
 #getoutput:hover{
     background-color:#026da7 ;
 }    
-
-
 .output{
  visibility: hidden;
     display: flex;
@@ -30,7 +29,7 @@ body{
 .output > div{
     width: 60%;
     border-radius: 16px;
-    background-color: #A4CE95;
+    background-color: #b6f89e;
 }
 
 .output > div input{
